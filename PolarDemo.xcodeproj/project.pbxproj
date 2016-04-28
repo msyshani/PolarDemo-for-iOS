@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACEF9EBC1CCF22D4006BCBF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF9EBB1CCF22D4006BCBF0 /* AppDelegate.swift */; };
+		ACEF9EBE1CCF22D4006BCBF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF9EBD1CCF22D4006BCBF0 /* ViewController.swift */; };
+		ACEF9EC11CCF22D4006BCBF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF9EBF1CCF22D4006BCBF0 /* Main.storyboard */; };
+		ACEF9EC31CCF22D4006BCBF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACEF9EC21CCF22D4006BCBF0 /* Assets.xcassets */; };
+		ACEF9EC61CCF22D4006BCBF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACEF9EC41CCF22D4006BCBF0 /* LaunchScreen.storyboard */; };
+		ACEF9ECE1CCF2305006BCBF0 /* MSYPolarH7.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEF9ECD1CCF2305006BCBF0 /* MSYPolarH7.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ACEF9EB81CCF22D4006BCBF0 /* PolarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEF9EBB1CCF22D4006BCBF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACEF9EBD1CCF22D4006BCBF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACEF9EC01CCF22D4006BCBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACEF9EC21CCF22D4006BCBF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACEF9EC51CCF22D4006BCBF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACEF9EC71CCF22D4006BCBF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACEF9ECD1CCF2305006BCBF0 /* MSYPolarH7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSYPolarH7.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACEF9EB51CCF22D4006BCBF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACEF9EAF1CCF22D4006BCBF0 = {
+			isa = PBXGroup;
+			children = (
+				ACEF9EBA1CCF22D4006BCBF0 /* PolarDemo */,
+				ACEF9EB91CCF22D4006BCBF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACEF9EB91CCF22D4006BCBF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF9EB81CCF22D4006BCBF0 /* PolarDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACEF9EBA1CCF22D4006BCBF0 /* PolarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ACEF9ECD1CCF2305006BCBF0 /* MSYPolarH7.swift */,
+				ACEF9EBB1CCF22D4006BCBF0 /* AppDelegate.swift */,
+				ACEF9EBD1CCF22D4006BCBF0 /* ViewController.swift */,
+				ACEF9EBF1CCF22D4006BCBF0 /* Main.storyboard */,
+				ACEF9EC21CCF22D4006BCBF0 /* Assets.xcassets */,
+				ACEF9EC41CCF22D4006BCBF0 /* LaunchScreen.storyboard */,
+				ACEF9EC71CCF22D4006BCBF0 /* Info.plist */,
+			);
+			path = PolarDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACEF9EB71CCF22D4006BCBF0 /* PolarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACEF9ECA1CCF22D4006BCBF0 /* Build configuration list for PBXNativeTarget "PolarDemo" */;
+			buildPhases = (
+				ACEF9EB41CCF22D4006BCBF0 /* Sources */,
+				ACEF9EB51CCF22D4006BCBF0 /* Frameworks */,
+				ACEF9EB61CCF22D4006BCBF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolarDemo;
+			productName = PolarDemo;
+			productReference = ACEF9EB81CCF22D4006BCBF0 /* PolarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACEF9EB01CCF22D4006BCBF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "App Engineer";
+				TargetAttributes = {
+					ACEF9EB71CCF22D4006BCBF0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ACEF9EB31CCF22D4006BCBF0 /* Build configuration list for PBXProject "PolarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACEF9EAF1CCF22D4006BCBF0;
+			productRefGroup = ACEF9EB91CCF22D4006BCBF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEF9EB71CCF22D4006BCBF0 /* PolarDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACEF9EB61CCF22D4006BCBF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF9EC61CCF22D4006BCBF0 /* LaunchScreen.storyboard in Resources */,
+				ACEF9EC31CCF22D4006BCBF0 /* Assets.xcassets in Resources */,
+				ACEF9EC11CCF22D4006BCBF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACEF9EB41CCF22D4006BCBF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEF9ECE1CCF2305006BCBF0 /* MSYPolarH7.swift in Sources */,
+				ACEF9EBE1CCF22D4006BCBF0 /* ViewController.swift in Sources */,
+				ACEF9EBC1CCF22D4006BCBF0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ACEF9EBF1CCF22D4006BCBF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEF9EC01CCF22D4006BCBF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACEF9EC41CCF22D4006BCBF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACEF9EC51CCF22D4006BCBF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACEF9EC81CCF22D4006BCBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACEF9EC91CCF22D4006BCBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACEF9ECB1CCF22D4006BCBF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivedots.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACEF9ECC1CCF22D4006BCBF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolarDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fivedots.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACEF9EB31CCF22D4006BCBF0 /* Build configuration list for PBXProject "PolarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF9EC81CCF22D4006BCBF0 /* Debug */,
+				ACEF9EC91CCF22D4006BCBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACEF9ECA1CCF22D4006BCBF0 /* Build configuration list for PBXNativeTarget "PolarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACEF9ECB1CCF22D4006BCBF0 /* Debug */,
+				ACEF9ECC1CCF22D4006BCBF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACEF9EB01CCF22D4006BCBF0 /* Project object */;
+}
